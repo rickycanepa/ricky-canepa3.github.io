@@ -11,7 +11,7 @@
     console.log("hello");  // prints => "hello" 10 times since that's how many times the code block will run before the condition is met
 }
 
-for (let i = 10; i - 1 >= 0; i--){ // set another condition, but this time subtracting
+for (let i = 10; i > 0; i--){ // set another condition, but this time subtracting
     console.log("hello");     // prints => "hello" 10 times
 }
 

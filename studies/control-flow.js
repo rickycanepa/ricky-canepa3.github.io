@@ -14,7 +14,7 @@ if (0 < 100){
 
 // 2. Else-if statement //
 // an else if statement can run a code block if a certain condition is met, and if it isnt met, will check if it meets another condition.
-
+// will only run if its condition is true and all previous conditions were false. 
 if (0 > 100){
     console.log("greater than");
 }
@@ -24,7 +24,7 @@ else if (0 < 100){
 
 // 3. Else statement
 // else statements run if the if statement is false, no condition is set for the else statment unlike the else if statment
-
+// will run only if all previous conditions were false.
 if (0 > 100){
     console.log("The Falcons will win")
 }
